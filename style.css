@@ -1,0 +1,107 @@
+
+body{
+   margin: 0%;
+   padding: 0%;
+   background:#d3dbe0;
+ }
+nav{
+   
+   background: white; 
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content:space-around ;
+
+ }
+ ul,li{
+     display: inline-block;
+     margin: 0 8px;
+ }
+ 
+ nav a{
+     text-decoration: none;
+     color:gray;
+     
+     
+ }
+ .logo{
+     font-size: 36px;
+     font-weight:bolder;
+     height: 55px;
+    
+ }
+ nav a.hover{
+    color: wheat;
+ }
+ .menu-line{
+     height: 3px;
+     width: 20px;
+     background: gray;
+     margin-bottom:3px;
+ }
+ .menu{
+     cursor: pointer;
+     display: none;
+ }
+ @media all and (max-width:760px){
+ nav{
+   flex-direction: column;   
+    }
+ nav li{
+     display:block;
+     padding: 10px 0;
+    }    
+  ul{
+     text-align: center;
+     padding: 0;
+     display: none;
+    }   
+  .logo{
+    align-self:flex-start;
+    margin: 10px 0 0 15px;
+    
+  }
+  .menu{
+    display: block; 
+    position: absolute;
+    right: 20px;
+    top: 25px;
+  }
+  .showmenu{
+      display: block;
+  }
+ }
+.img{
+    width: 80%;
+    opacity: 50%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    }     
+ .one{
+     color: white;
+    padding-bottom: 14px;
+ }
+ .two{
+     padding-bottom: 14px;
+  
+ }
+
+ 
+   .page{
+     text-align: center;
+     margin-top: 50px;
+     margin-bottom: 50px;
+ 
+  
+.q{
+     text-decoration: none;
+     color: gray;
+     padding: 8px 16px;
+     font-size: 20px;
+     border: 1px solid gray;
+     border-radius: 5px;
+   }
+ 
+   
+   
+  

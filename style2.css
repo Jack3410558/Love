@@ -1,0 +1,112 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center ;
+    align-items: center ;
+    background:#d3dbe0;
+    
+}
+
+
+.heart{
+    height: 70px ;
+    width: 70px;
+    background: white;
+    position: relative;
+    transform: rotate(-45deg) ;
+    box-shadow: -10px 10px 90px white;
+    animation: heart 0.6s linear infinite;
+   
+   
+}
+@keyframes heart{
+    0%{
+        transform: rotate(-45deg) scale(1.07);
+    }
+    80%{
+        transform: rotate(-45deg) scale(1.0);
+    }
+    100%{
+        transform: rotate(-45deg) scale(1.07);
+    }
+    
+}
+.heart:before{
+    content: '';
+    position:absolute ;
+    height: 70px ;
+    width: 70px;
+    background: white;
+    top: -50%;
+    border-radius: 50px;
+     box-shadow: -10px -10px 90px white;
+    
+}
+.heart:after{
+    content: '';
+    position:absolute ;
+    height: 70px ;
+    width: 70px;
+    background: white;
+    right: -50%;
+    border-radius: 50px;
+    box-shadow: 10px 10px 90px white;
+    
+
+}
+
+  .container{
+  
+   position:relative;
+   
+   
+}
+       
+ 
+  .hii{
+   position: absolute;
+   padding-top: 280px;  
+   padding-left: 190px;
+   text-align: center;
+   color: grey;
+  
+   
+  } 
+
+    .on{
+   position: absolute;
+   padding-top: 530px;  
+   text-align: center;
+   padding-left: 18px;
+   
+
+      } 
+  
+  .one{
+ 
+  padding: 8px;
+  text-decoration: none;
+  color: grey;
+      
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
